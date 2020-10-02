@@ -15,7 +15,7 @@ namespace Calculator
         string operation = "";
         double firstnum,secondnum;
 
-        public my01cal()
+        public mynewcal()
         {
             InitializeComponent();
         }
