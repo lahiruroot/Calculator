@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    public partial class Form1 : Form
+    public partial class My Calculator : Form
     {
         string operation = "";
         double firstnum,secondnum;
@@ -20,7 +20,7 @@ namespace Calculator
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Calculator_Load(object sender, EventArgs e)
         {
 
         }
