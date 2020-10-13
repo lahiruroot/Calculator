@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+//say hello
 
 namespace Calculator
 {
@@ -29,7 +30,7 @@ namespace Calculator
         {
             Button b = (Button)sender;
 
-            if (txtdisplay.Text == "0")
+            if (txtdisplay.Text == "hello")
                 txtdisplay.Text = "";
                 
         if(b.Text == ".")
